@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## If the matrix values unchanged, the following function will retrieve the 
+## If the matrix values are unchanged, the following function will retrieve the 
 ## cached inverse. If the values have changed, the function will recalculate the
 ## inverse and store it in the cache for future use.
 
